@@ -56,4 +56,9 @@ app.use("/", indexRoutes);
 app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
-app.listen(port, () => console.log(`The CarvalhoCamp Server has started!`))
+//app.listen(port, () => console.log(`The CarvalhoCamp Server has started!`))
+
+var port = process.env.PORT || 3000;
+app.listen(port, function () {  
+  console.log("Server Has Started!");
+});
