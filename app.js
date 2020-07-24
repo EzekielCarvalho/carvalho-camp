@@ -40,7 +40,7 @@ app.use(function(req, res, next){
 
 // seedDB(); //seed the database
 //mongoose.connect('mongodb://localhost:27017/CarvalhoCamp', 
-	mongoose.connect('mongodb+srv://Ezekiel:Ezekiel@cluster0.yta16.mongodb.net/CarvalhoCamp?retryWrites=true&w=majority',			 
+	mongoose.connect('mongodb+srv://Ezekiel:Ezekiel@cluster0.yta16.mongodb.net/goorm?retryWrites=true&w=majority',			 
 	{
   useNewUrlParser: true,
   useUnifiedTopology: true
